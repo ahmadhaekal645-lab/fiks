@@ -1,0 +1,30 @@
+# Sampah Windows / OneDrive
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.lnk
+
+# Sampah macOS (kalau file dibuka di komputer lain)
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Pengaturan Claude Code yang bersifat lokal (launch.json tetap ikut)
+.claude/settings.local.json
+
+# Kalau suatu saat terlanjur pakai npm
+node_modules/
+
+# Berkas sementara
+*.tmp
+*.log
+
+# Berkas kunci sementara Microsoft Office
+~$*
+
+# Dokumen kerja pribadi, tidak ikut ke GitHub
+MASTER PROMPT.docx
